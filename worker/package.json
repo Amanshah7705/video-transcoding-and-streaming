@@ -1,0 +1,22 @@
+{
+  "name": "worker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.614.0",
+    "@aws-sdk/s3-request-presigner": "^3.614.0",
+    "axios": "^1.7.2",
+    "bullmq": "^5.10.1",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21"
+  }
+}
